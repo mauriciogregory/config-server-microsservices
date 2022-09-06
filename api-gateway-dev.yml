@@ -6,7 +6,7 @@ spring:
       default-filters:
         - name: LogFilter
       routes:
-        - id: catalogRoute
-          uri: lb://catalog-service
+        - id: catalogoRoute
+          uri: lb://catalogo-service
           predicates:
-            - Path=/catalog/**
+            - Path=/catalogo/**
